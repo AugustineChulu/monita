@@ -976,13 +976,13 @@ import "../css/landing_page.css";
 `;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-const humMenuPanel = document.querySelector('#humMenuPanel');
+// const humMenuPanel = document.querySelector('#humMenuPanel');
 
 document.addEventListener("click", (event) => {
   if (!(event.target instanceof HTMLElement)) return;
 
   const scwTitleButton = event.target.closest(".scwTitle");
-  const humMenuBtn = event.target.closest("#humMenuBtn");
+//   const humMenuBtn = event.target.closest("#humMenuBtn");
   if (scwTitleButton) {
     const scwParent = scwTitleButton.parentElement;
     const expand_btn = scwTitleButton.querySelector(`.expand_btn`);
