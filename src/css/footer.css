@@ -1,0 +1,48 @@
+#pageFooter{
+    background-image: url(images/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--accent);
+
+    display: grid;
+    place-items: center;
+}
+
+#footerContentWrapper{
+    margin: 0 1rem;
+}
+
+#footer_logo{
+    display: block;
+    height: 40px;
+    margin: 1.5rem auto;
+}
+
+#contactInfoWrapper{
+    padding: 4rem;
+    border: solid 4px #fff;
+    background-color: #00224491;
+    color: #fff;
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
+}
+
+#cw_addresses{
+    margin-bottom: 2rem;
+}
+
+.footer_sub_title{
+    margin-bottom: 1rem;
+    font-size: var(--md);
+}
+
+/* FOR TABLETS */
+@media only screen and (min-width: 660px){
+
+}
+
+/* FOR PC */
+@media only screen and (min-width: 1000px){
+
+}

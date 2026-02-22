@@ -1,0 +1,91 @@
+#navBarWrapper{
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+#navBar{
+    height: 7rem;
+    width: 100%;
+    
+    transition: height 1s;
+}
+
+.active{
+    height: 4rem !important;
+}
+
+#navBar > #inactive_wrapper{
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: min-content;
+    background-color: var(--accent);
+    color: var(--theme);
+    font-size: var(--lg);
+    font-weight: bold;
+    line-height: 140%;
+    padding: 0 4rem 0 2rem;
+
+    display: grid;
+    grid-auto-flow: row;
+    align-content: center;
+}
+
+#navBar.active > #inactive_wrapper{
+    display: none !important;
+}
+
+#navBar > #active_wrapper{
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    background-color: var(--accent);
+    height: 100%;
+    width: 0%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    align-items: center;
+    box-shadow: 0 3px 10px 1px #00000066;
+
+    transition: width 1s;
+}
+
+#navBar.active > #active_wrapper{
+    width: 100% !important;
+    z-index: 10 !important;
+}
+
+#inactiveSubHead{
+    font-size: var(--xl);
+    color: #fff;
+}
+
+#navBarLogo{
+    grid-column: 1;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+
+#humMenuBtn{
+    grid-column: 2;
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    margin: 0 1rem;
+    display: grid;
+    place-items: center;
+
+    transition: transform 1s;
+}
+
+#humMenuBtn:hover{
+    cursor: pointer;
+}
