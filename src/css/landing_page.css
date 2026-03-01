@@ -227,7 +227,7 @@
     width: 100%;
     background-color: var(--theme);
     background-blend-mode: screen;
-    background-image: url(images/business_team.jpg);
+    background-image: url(/images/business_team.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -399,7 +399,7 @@
 }
 
 .shadedRow{
-    background-color: #eee;
+    background-color: #00224422;
 }
 
 .client{
