@@ -37,6 +37,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* position: relative; */
   max-width: 100vw !important;
