@@ -3,7 +3,7 @@ import "../../css/footer.css";
 (document.getElementById("pageFooter") as HTMLDivElement).innerHTML = `
     <div id="footerContentWrapper">
 
-            <img alt="logo" src="images/logo2.png" id="footer_logo">
+            <img alt="logo" src="images/logo2.webp" id="footer_logo">
         
             <div id="contactInfoWrapper">
 

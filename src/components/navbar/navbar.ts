@@ -10,7 +10,7 @@ import "../../css/navbar.css";
         </div>
 
         <div id="active_wrapper">
-            <img alt="logo" src="images/logo2.png" id="navBarLogo">
+            <img alt="logo" src="images/logo2.webp" id="navBarLogo">
         </div>
     </div>
 `;

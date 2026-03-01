@@ -3,7 +3,7 @@ import "../css/landing_page.css";
 (document.getElementById("landing_page") as HTMLDivElement).innerHTML = `
     <div id="heroSection">
 
-        <img alt="logo" src="images/logo.png">
+        <img alt="logo" src="images/logo.webp">
 
         <div id="pageSections">
 
@@ -45,7 +45,7 @@ import "../css/landing_page.css";
 
     <div id="index">
 
-            <img alt="logo" src="images/logo.png" id="logo">
+            <img alt="logo" src="images/logo.webp" id="logo">
 
             <div id="remarkWrapper">
 
@@ -58,7 +58,7 @@ import "../css/landing_page.css";
                     
                 </svg>
 
-                <img alt="remark" src="images/remark.png" id="remark">
+                <img alt="remark" src="images/remark.webp" id="remark">
 
             </div>
 
@@ -224,36 +224,8 @@ import "../css/landing_page.css";
                     </div>
                     
                 </div>
-
-                <!-- <div id="technicalStaff">
-
-                    <div class="techStaff">
-                        <div class="teamRole">Telecoms & Networks</div> 
-                        George Chama
-                    </div>
-
-                    <div class="techStaff">
-                        <div class="teamRole">Computer Technician</div> 
-                        Isaac Lungu
-                    </div>
-
-                    <div class="techStaff">
-                        <div class="teamRole">Assistant Technicians</div> 
-                        Kakumbi Mwenje/Elijah
-                    </div>
-                    
-                    <div class="techStaff">
-                        <div class="teamRole">Computer Technician</div> 
-                        Vincent Bwalya
-                    </div>
-                    
-                </div> -->
                 
             </div>
-
-            <!-- <div id="teamImageWrapper">
-                <img id="teamImage" alt="team" src="images/business_team.jpg">
-            </div> -->
 
         </div>
 
@@ -356,7 +328,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="security systems" class="scwBodyImage" src="images/securitySystems.jpg">
+                        <img alt="security systems" class="scwBodyImage" src="images/services_assets/securitySystems.webp">
                     </div>
 
                 </div>
@@ -397,7 +369,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="access control systems" class="scwBodyImage" src="images/accessControlSystems.jpg">
+                        <img alt="access control systems" class="scwBodyImage" src="images/services_assets/accessControlSystems.webp">
                     </div>
 
                 </div>
@@ -432,7 +404,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="netpos/netacc system" class="scwBodyImage" src="images/netposNetaccSystem.jpg">
+                        <img alt="netpos/netacc system" class="scwBodyImage" src="images/services_assets/netposNetaccSystem.webp">
                     </div>
 
                 </div>
@@ -452,7 +424,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="electric tank gauge system" class="scwBodyImage" src="images/electricTankGuageSystem.jpg">
+                        <img alt="electric tank gauge system" class="scwBodyImage" src="images/services_assets/electricTankGuageSystem.webp">
                     </div>
                     
                 </div>
@@ -460,11 +432,11 @@ import "../css/landing_page.css";
                 <div class="imagesCard">
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="fleet management and fuel control 1" class="scwBodyImage" src="images/fleetManagementAndFuelControl1.jpg">
+                        <img alt="fleet management and fuel control 1" class="scwBodyImage" src="images/services_assets/fleetManagementAndFuelControl1.webp">
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="fleet management and fuel control 2" class="scwBodyImage" src="images/fleetManagementAndFuelControl2.jpg">
+                        <img alt="fleet management and fuel control 2" class="scwBodyImage" src="images/services_assets/fleetManagementAndFuelControl2.webp">
                     </div>
 
                 </div>
@@ -576,7 +548,7 @@ import "../css/landing_page.css";
                     </div> -->
 
                     <div class="scwBodyImageWrapper wideImage">
-                        <img alt="intergrated cctv and impro access control" class="scwBodyImage" src="images/intergratedCctvAndImproAccessControl.jpg">
+                        <img alt="intergrated cctv and impro access control" class="scwBodyImage" src="images/services_assets/intergratedCctvAndImproAccessControl.webp">
                     </div>
 
                 </div>
@@ -604,7 +576,7 @@ import "../css/landing_page.css";
                     </div> -->
 
                     <div class="scwBodyImageWrapper bigIamge">
-                        <img alt="netcom commercial site setup" class="scwBodyImage" src="images/netcomCommercialSiteSetup.jpg">
+                        <img alt="netcom commercial site setup" class="scwBodyImage" src="images/services_assets/netcomCommercialSiteSetup.webp">
                     </div>
 
                 </div>
@@ -657,7 +629,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="price display boards" class="scwBodyImage" src="images/priceDisplayBoards.jpg">
+                        <img alt="price display boards" class="scwBodyImage" src="images/services_assets/priceDisplayBoards.webp">
                     </div>
 
                 </div>
@@ -733,7 +705,7 @@ import "../css/landing_page.css";
                     </div>
 
                     <div class="scwBodyImageWrapper">
-                        <img alt="supported software" class="scwBodyImage" src="images/supportedSoftware.jpg">
+                        <img alt="supported software" class="scwBodyImage" src="images/services_assets/supportedSoftware.webp">
                     </div>
 
                 </div>
@@ -1011,13 +983,11 @@ window.addEventListener("scroll", () => {
   if (navBar) {
     if (window.scrollY > windowHeight && !navBar.classList.contains("active")) {
       navBar.classList.add("active");
-      console.log("add");
     } else if (
       window.scrollY < windowHeight &&
       navBar.classList.contains("active")
     ) {
       navBar.classList.remove("active");
-      console.log("remove");
     }
   }
 });

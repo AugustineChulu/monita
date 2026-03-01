@@ -43,10 +43,10 @@
 #heroSection{
     margin-top: calc(var(--navbar_offset) * -1);
     position: relative;
-    /* background-image: url("/images/heroSection.jpg");
+    background-image: url("/images/heroSection.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: auto auto;
@@ -227,7 +227,7 @@
     width: 100%;
     background-color: var(--theme);
     background-blend-mode: screen;
-    background-image: url(/images/business_team.jpg);
+    background-image: url(/images/business_team.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
